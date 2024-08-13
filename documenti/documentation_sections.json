@@ -1,0 +1,33 @@
+{
+  "Getting Started": "This section should guide a new user on how to install, set up, and quickly get started with using the project. It can include a quick start guide, installation instructions, and basic usage examples.",
+  "Tutorials": "provide step-by-step guides to help users understand how to use the different features of the current project. They should be practical and easy to follow.",
+  "How-To Guides": "These are more detailed than tutorials and explain how to perform specific tasks with the project. They should be clear, concise, and instructive.",
+  "Technical Reference": {
+    "Project Architecture": {
+        "Components": "Create one or more Architectural diagrams in ASCII characters of the main components of your system. These could be services, modules, databases, third-party systems, etc. Each component should be represented as a separate entity in the diagram.",
+        "Scaling": "Create one or more Architectural diagrams in ASCII characters that show how the codebase's architecture is designed to scale, indicate how scaling happens. This could be horizontal scaling (adding more instances of a component) or vertical scaling (increasing the resources of a component).",
+        "Connections": "Create one or more Architectural diagrams in ASCII characters that show how the components interact with each other. This could be in the form of data flow, API calls, database queries, etc. Use arrows to indicate the direction of interaction.",
+        "Security": "Create one or more Architectural diagrams in ASCII characters that indicate any security measures in place, such as firewalls, authentication systems, encryption, etc.",
+        "Data Flow": "Create one or more Architectural diagrams in ASCII characters that show how data flows through the system. This can help users understand the lifecycle of data in your system."
+    },
+    "API References": "This is where you document all the APIs in your codebase. For each API, you should include its purpose, the request and response formats, any headers or parameters needed, and example requests and responses.",
+    "Class & Module Documentation": "For each class or module in your codebase, you should document its purpose, its methods and properties, and any important details about its implementation. This can be done using tools like Javadoc for Java or Sphinx for Python.",
+    "Function & Method Documentation": "Similar to class/module documentation, each function or method in your codebase should be documented. This includes its purpose, its parameters and return values, and any exceptions it might throw.",
+    "Database Schema": "This includes the tables in your database, the columns in each table, the data types of each column, and any relationships between tables.",
+    "Configuration Files": "you should document what each configuration option does and provide examples of how to use them.",
+    "Environment Variables": "you should document what each one does, how to set them, and any default values.",
+    "Error Codes and Messages": "you should document what each one means and what the user should do when they encounter them.",
+    "Versioning": "you should document what changes in each version and how to use or migrate to a new version."
+  },
+  "Concepts": "This section should explain the key concepts, architecture, and design principles of the project. It helps users understand the why and how of your project.",
+  "Use Cases": "This section can describe real-world uses of your project. It helps users understand how they can apply your project to solve their problems.",
+  "Troubleshooting Guide": "This section can provide solutions to common problems that users might encounter while using your project. It can save users a lot of time and frustration.",
+  "Glossary": "It defines all the terms in one place and ensures that your documentation is easy to understand.",
+  "Best Practices": "This section can provide guidance on the best ways to use your project. It can include tips and tricks, performance considerations, security practices, etc.",
+  "Test Coverage": "Document what parts of the codebase are covered by tests. This can give users confidence in the reliability of your project.",
+  "Performance Metrics": "Provide performance metrics of your project. This can include things like speed, memory usage, load capacity, etc.",
+  "FAQs": "Frequently Asked Questions (FAQs) can help users troubleshoot common problems or misunderstandings they might encounter.",
+  "Contribution Guidelines": "this section should guide contributors on how they can help improve the project. It can include coding standards, process for submitting pull requests, etc.",
+  "Changelog": "This section lists the changes made in each release of the project. It helps users understand what’s new or what has changed in the project.",
+  "License": "This section should clearly state under what license your project is released."
+}
